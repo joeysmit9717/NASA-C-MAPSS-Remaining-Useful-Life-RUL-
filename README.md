@@ -7,8 +7,20 @@ This package documents Remaining Useful Life (RUL) prediction
 on NASA's CMAPSS turbofan datasets FD001 and FD002.
 
 - **README.md** -          this file (report + Python code overview)
-- **CMAPPS.pdf** -          LaTeX source for the PDF findings report (Overleaf)
-- **Python** -         Python codes used for producing the results. 
+- **CMAPPS.pdf** -         PDF report 
+- **Python** -         Python codes used for producing the results. CMAPPSturboengine.py and CMAPPSturboengine2.py are what produces the plots in CMAPPS.pdf , whereas CMAPPSturboengine3saveModels.py and CMAPPSturboengine4FastAPI create and use the trained prediction models for faster use. The fast API is also partly available as a docker image through: 
+### Docker Image
+
+The project is available as a Docker image on Docker Hub.
+
+**Image name:** `joeysmit9717/cmapps-turboengine`
+
+**Docker Hub:** [joeysmit9717/cmapps-turboengine]
+(https://hub.docker.com/r/joeysmit9717/cmapps-turboengine)
+
+To download the image, run:
+docker pull joeysmit9717/cmapps-turboengine
+
 
   Upstream analysis scripts and data (PdM/):
   CMAPPSturboengine.py   - FD001 (1 operating condition, 1 fault mode)
