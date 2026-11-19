@@ -6,9 +6,9 @@ What this folder contains
 This package documents Remaining Useful Life (RUL) prediction
 on NASA's CMAPSS turbofan datasets FD001 and FD002.
 
-  --**README.md**          - this file (report + Python code overview)
-  --**CMAPPS.pdf**          - LaTeX source for the PDF findings report (Overleaf)
-  --**Python**             - Python codes used for producing the results. 
+-**README.md**          - this file (report + Python code overview)
+-**CMAPPS.pdf**          - LaTeX source for the PDF findings report (Overleaf)
+-**Python**             - Python codes used for producing the results. 
 
   Upstream analysis scripts and data (PdM/):
   CMAPPSturboengine.py   - FD001 (1 operating condition, 1 fault mode)
