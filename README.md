@@ -34,6 +34,8 @@ docker pull joeysmit9717/cmapps-turboengine
 Key Findings
 ------------
 
+The RUL estimate for the fd001 training dataset for the various machine learning methods. (2 GPR's (Gaussian Process Regression, RF (Random Forest) and a CNN (Convolutional Neural Network). The CNN outformed the other methods in terms of accuracy, as is disclosed in the report.
+
 ![FD001 Training Trajectories](Results/fd001_trajectory_train.png)
 
 What the analysis does
