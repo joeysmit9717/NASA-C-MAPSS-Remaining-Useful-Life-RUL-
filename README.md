@@ -54,14 +54,14 @@ What the analysis does
 
 Plots in CMAPPSturboengine.py and CMAPPSturboengine2.py
 -----------------
-  fd001_parity.png                 Predicted vs true RUL (FD001)
-  fd001_ecdf_relative_error.png    Relative-error ECDF (FD001)
-  fd001_trajectory_test.png        Test engine 1 RUL trajectory
-  fd001_trajectory_train.png       Train engine (run-to-failure)
-  fd002_parity.png                 Predicted vs true RUL (FD002)
-  fd002_ecdf_relative_error.png    Relative-error ECDF (FD002)
-  fd002_trajectory_test.png        Test engine 1 RUL trajectory
-  fd002_trajectory_train.png       Train engine (run-to-failure)
+ - fd001_parity.png                 Predicted vs true RUL (FD001)
+ - fd001_ecdf_relative_error.png    Relative-error ECDF (FD001)
+ - fd001_trajectory_test.png        Test engine 1 RUL trajectory
+ - fd001_trajectory_train.png       Train engine (run-to-failure)
+ - fd002_parity.png                 Predicted vs true RUL (FD002)
+ - fd002_ecdf_relative_error.png    Relative-error ECDF (FD002)
+ - fd002_trajectory_test.png        Test engine 1 RUL trajectory
+ - fd002_trajectory_train.png       Train engine (run-to-failure)
 
 How to regenerate the plots
 ---------------------------
