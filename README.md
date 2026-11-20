@@ -27,9 +27,9 @@ docker pull joeysmit9717/cmapps-turboengine
   train_FD001.txt / test_FD001.txt / RUL_FD001.txt
   train_FD002.txt / test_FD002.txt / RUL_FD002.txt
 
-  train: full life of the engine, engine inoperational at the end
-  test: data cut-off after X cycles, engine still operational at that pint
-  RUL: addition to test, shows how many more cycles the engine lasted until it became inoperational.
+- **train:** full life of the engine, engine inoperational at the end
+- **test:** data cut-off after X cycles, engine still operational at that pint
+- **RUL:** addition to test, shows how many more cycles the engine lasted until it became inoperational.
   
 What the analysis does
 ----------------------
