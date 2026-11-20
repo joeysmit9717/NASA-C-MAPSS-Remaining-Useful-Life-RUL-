@@ -8,7 +8,8 @@ on NASA's CMAPSS turbofan datasets FD001 and FD002.
 
 - **README.md** -          this file (report + Python code overview)
 - **CMAPPS.pdf** -         PDF report 
-- **Python** -         Python codes used for producing the results. CMAPPSturboengine.py and CMAPPSturboengine2.py are what produces the plots in CMAPPS.pdf , whereas CMAPPSturboengine3saveModels.py and CMAPPSturboengine4FastAPI create and use the trained prediction models for faster use. The fast API is also partly available as a docker image through: 
+- **Python** -         Python codes used for producing the results. CMAPPSturboengine.py and CMAPPSturboengine2.py are what produces the plots in CMAPPS.pdf , whereas CMAPPSturboengine3saveModels.py and CMAPPSturboengine4FastAPI create and use the trained prediction models for faster use. The fast API is also partly available as a docker image.
+
 ### Docker Image
 
 **Image name:** `joeysmit9717/cmapps-turboengine`
