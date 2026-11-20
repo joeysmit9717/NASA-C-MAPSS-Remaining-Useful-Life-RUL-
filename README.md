@@ -67,9 +67,9 @@ How to regenerate the plots
 ---------------------------
 From the project root (or any cwd; paths are resolved from the scripts):
 
-  set MPLBACKEND=Agg
-  CMAPPSturboengine.py
-  CMAPPSturboengine2.py
+ - set MPLBACKEND=Agg
+ - CMAPPSturboengine.py
+ - CMAPPSturboengine2.py
 
 Requirements
 ------------
