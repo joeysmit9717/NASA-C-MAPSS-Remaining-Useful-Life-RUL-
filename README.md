@@ -1,4 +1,4 @@
-CMAPSS Turbo Fan Engine RUL Prediction
+CMAPSS Turbo Fan Engine RUL Prediction 
 ======================================
 
 What this folder contains
@@ -30,7 +30,11 @@ docker pull joeysmit9717/cmapps-turboengine
 - **train:** full life of the engine, engine inoperational at the end
 - **test:** data cut-off after X cycles, engine still operational at that pint
 - **RUL:** addition to test, shows how many more cycles the engine lasted until it became inoperational.
-  
+
+Key Findings
+------------
+![FD001 Training Trajectories](fd001_trajectory_train.png)
+
 What the analysis does
 ----------------------
 1. Load CMAPSS run-to-failure training trajectories and truncated test
