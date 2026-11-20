@@ -33,6 +33,7 @@ docker pull joeysmit9717/cmapps-turboengine
 
 Key Findings
 ------------
+
 ![FD001 Training Trajectories](fd001_trajectory_train.png)
 
 What the analysis does
