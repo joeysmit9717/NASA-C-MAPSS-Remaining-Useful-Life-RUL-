@@ -34,7 +34,7 @@ docker pull joeysmit9717/cmapps-turboengine
 What the analysis does
 ----------------------
 1. Load CMAPSS run-to-failure training trajectories and truncated test
-   engines; attach linear RUL labels on train (max cycle - cycle).
+   engines; attach linear RUL labels on train (max cycle - current cycle).
 2. Use 10 trending sensors (2, 3, 4, 7, 11, 12, 15, 17, 20, 21).
 3. FD001: MinMax-scale sensors for the CNN; GPR/RF use raw sensor rows.
 4. FD002: cluster op_settings into 6 regimes (KMeans), then z-score
@@ -52,7 +52,7 @@ What the analysis does
 8. Plot parity charts, ECDFs of relative lifespan error, and RUL
    trajectories on one test and one train engine.
 
-Plots in figures/
+Plots in CMAPPSturboengine.py and CMAPPSturboengine2.py
 -----------------
   fd001_parity.png                 Predicted vs true RUL (FD001)
   fd001_ecdf_relative_error.png    Relative-error ECDF (FD001)
@@ -68,28 +68,12 @@ How to regenerate the plots
 From the project root (or any cwd; paths are resolved from the scripts):
 
   set MPLBACKEND=Agg
-  py -3 PdM\CMAPPSturboengine.py
-  py -3 PdM\CMAPPSturboengine2.py
-
-On PowerShell:
-
-  $env:MPLBACKEND='Agg'
-  py -3 PdM\CMAPPSturboengine.py
-  py -3 PdM\CMAPPSturboengine2.py
-
-Figures are written to this folder under figures/. Set SAVE_FIGURES=0 to
-skip saving PNGs. FD002's 7000-row GPR is slow (several minutes).
-
-How to build the PDF report (Overleaf)
---------------------------------------
-1. Create a new Overleaf project.
-2. Upload report.tex and the figures/ folder (keep the same relative
-   paths: figures/*.png).
-3. Compile. Download the PDF for your portfolio / applications.
+  CMAPPSturboengine.py
+  CMAPPSturboengine2.py
 
 Requirements
 ------------
-Python 3.x with: pandas, numpy, matplotlib, scikit-learn, tensorflow
+Python 3.x with: pandas, numpy, matplotlib, scikit-learn, tensorflow, NASA CMAPPS dataset FD001 and FD002 (train, test and RUL)
 
 Key result snapshot (from last run)
 -----------------------------------
